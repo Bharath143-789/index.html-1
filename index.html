@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Grocery Delivery</title>
+  <link rel="stylesheet" href="http://127.0.0.1:5500/project1.1/project.css"/>
+</head>
+<body>
+  <header>
+    <img src="black sword.jpeg"  alt="logo" class="logo"/>
+    <h1>Black Sword Grocerys</h1>
+    <input type="text" id="searchBar" placeholder="Search products..."/>
+    <div class="loyalty">Loyalty Points: <span id="points">120</span></div>
+  </header>
+
+  <section class="banner">
+    <h2>🔥 Today's Offers: Get 20% off on all snacks!</h2>
+  </section>
+
+  <section class="location-check">
+    <label for="location">Enter Delivery Location:</label>
+    <input type="text" id="location" placeholder="e.g., Chennai"/>
+  </section>
+
+  <main>
+    <h2>Products</h2>
+    <div class="categories">
+      <button onclick="filterCategory('all')">All</button>
+      <button onclick="filterCategory('veggies')">Veggies</button>
+      <button onclick="filterCategory('dairy')">Dairy</button>
+      <button onclick="filterCategory('snacks')">Snacks</button>
+      <button onclick="filterCategory('Grocerys')">Grocerys</button>
+    </div>
+
+    <div class="product-list" id="productList">
+      
+    </div>
+
+    <button class="order-btn" onclick="placeOrder()">Place Order</button>
+  </main>
+
+  <section class="recipes">
+    <h2>Recipe Ideas</h2>
+    <ul>
+      <li>🍲 Veggie Stir Fry</li>
+      <li>🥛 Mango Milkshake</li>
+      <li>🍪 Chocolate Chip Cookies</li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Grocery Delivery. All rights reserved.</p>
+  </footer>
+
+  <script src="http://127.0.0.1:5500/project1.1/project.js"></script>
+</body>
+</html>
