@@ -1,0 +1,101 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-image: url('');
+  background-size: cover;
+  background-attachment: fixed;
+  color: #fff;
+}
+
+header {
+  background: #111;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  height: 50px;
+  width: 55px;
+}
+
+#searchBar {
+  padding: 6px;
+  width: 200px;
+  border-radius: 5px;
+  border: none;
+}
+
+.loyalty {
+  font-weight: bold;
+}
+
+.banner {
+  background: #ed3203;
+  text-align: center;
+  padding: 10px;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.location-check {
+  padding: 10px 20px;
+  background: #222;
+}
+
+main {
+  padding: 20px;
+}
+
+.categories button {
+  margin: 5px;
+  padding: 8px 12px;
+  background: #444;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.product {
+  background: rgba(0,0,0,0.6);
+  border-radius: 10px;
+  padding: 10px;
+  width: 200px;
+  text-align: center;
+}
+
+.product img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.order-btn {
+  display: block;
+  margin: 30px auto;
+  padding: 10px 20px;
+  font-size: 1.1em;
+  background: green;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.recipes {
+  background: #333;
+  padding: 20px;
+}
+
+footer {
+  background: #111;
+  text-align: center;
+  padding: 15px;
+}
